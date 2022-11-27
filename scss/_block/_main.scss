@@ -1,0 +1,168 @@
+.main {
+    background-color: #FFD845;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        padding: 20px 200px;
+    }
+
+    &__form {
+        display: flex;
+        gap: 15px;
+    }
+
+    &__input {
+        width: 160px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+
+    &__search {
+        width: 120px;
+        height: 40px;
+        border: 1px solid transparent;
+        border-bottom-color: black;
+        border-top-color: black;
+        outline: none;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    &__input>i {
+        font-size: 20px;
+    }
+
+    &__select {
+        width: 160px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 6px;
+        outline: none;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__btn {
+        width: 120px;
+        height: 40px;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        font-size: 18px;
+        background-color: #fff;
+        font-weight: 700;
+        border: 1px solid black;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    &__item {
+        width: 240px;
+        height: 330px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        border: 1px solid black;
+        padding: 20px 0px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__itemPart{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid transparent;
+        border-top-color: black;
+        padding: 10px 0px 0px 0px;
+    }
+    &__texts{
+        display: flex;
+        align-items: center;
+        width: 220px;
+        justify-content: space-between;
+    }
+    &__icon{
+        font-size: 24px;
+        
+    }
+    &__texts2{
+        display: flex;
+        gap: 30px;
+    }
+    &__text2{
+        font-size: 24px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    &__title2{
+        font-size: 24px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    &__text1{
+        padding: 0px 10pxx;
+        width: 150px;
+    }
+    &__parag{
+        font-size: 12px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        width: 220px;
+        height: auto;
+    }
+    &__elemImg {
+        width: 130px;
+        height: 130px;
+    }
+    &__burger{
+        padding: 10px 0px 30px 0px;
+        display: none;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        right: 0px;
+        width: 350px;
+        background-color: #ffc800;
+        transition: 3s;
+    }
+    &__add{
+        display: block;
+    }
+    &__Bbtn{ 
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__Hicon{
+        margin-left: 800px;
+        font-size: 32px;
+        color: #fff;
+    }
+    &__chevronright{
+        font-size: 32px;
+        color: #fff;
+    }
+    &__BurgerList{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
